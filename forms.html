@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book a Course</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+        
+        li {
+            margin: 5px 0;
+        }
+        
+        label {
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>    
+    <form action="">
+
+<fieldset>
+<legend>Your Details </legend>
+
+<label for="First Name">First Name:</label> 
+<input type="text" name="user" id="First Name" autofocus> 
+ 
+<br>
+
+<label for="Surname">Surname:</label>
+<input type="text" name="enter" id="Surname">
+
+<br>
+
+<label for="Position/role">Position/role:</label>
+<input type="text" name=" user" id="Position">
+
+<br>
+
+<label for="Email">Email:</label>
+<input type="email" name="email" placeholder="you@domain.com" id="Email" required>
+
+<br>
+
+<label for="Phone">Phone Number:</label>
+<input type="number" name="phone" placeholder="Eg. +447500000000" id="Phone Numner">
+</fieldset>
+
+
+<fieldset>
+<Legend>Course Details</Legend>
+<label for="Courses">Course</label>
+
+<select name="course" id="Courses">
+
+<option value="Programming">Programming with JavaScript</option>
+<option value="Developing">Developing Web Applications using HTMLS</option>
+<option value="Developing"> Developing responsive websites</option>
+<option value="Leveraging"> Leveraging the Power of jQuery</option>
+
+</select>
+
+<br>
+
+<label for="Numberofdelegates">Number of Delegates</label>
+<input type="number">
+
+<br>
+
+<label for="date">Date:</label>
+<input type="date" name="date" id="date">
+
+</fieldset>
+
+<fieldset>
+
+    <button type="submit">Submit</button>
+
+</fieldset>
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
